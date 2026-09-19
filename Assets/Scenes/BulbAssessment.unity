@@ -785,6 +785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baaed737462c2ef41b844a1e5ec199bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SliderControl
+  track: {fileID: 693013510}
   startZ: 0
   endZ: -0.727
 --- !u!54 &499016462
