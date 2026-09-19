@@ -465,7 +465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a3e20996666ef2488f37209042f3d82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.478
+      value: 3.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6a3e20996666ef2488f37209042f3d82, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1036,13 +1036,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989311805}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23038636, y: -0.21913707, z: 0.18788846, w: 0.9293003}
-  m_LocalPosition: {x: -0.0001, y: 0.0845, z: 0.0393}
+  m_LocalRotation: {x: 0.19688568, y: -0.15604793, z: -0.046935864, w: 0.96678954}
+  m_LocalPosition: {x: -0.001, y: 0.059, z: 0.028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1521043794}
-  m_LocalEulerAnglesHint: {x: 30.7, y: -21.9, z: 16.78}
+  m_LocalEulerAnglesHint: {x: 21.472, y: -20.127, z: -9.413}
 --- !u!1 &1139760052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,7 +1175,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 756192407}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 0
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -1676,7 +1676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
   m_InteractionManager: {fileID: 756192407}
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 2
   m_Handedness: 0
   m_AttachTransform: {fileID: 989311806}
   m_KeepSelectedTargetValid: 1
@@ -1729,7 +1729,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.06
+  m_Radius: 0.18
   m_Center: {x: 0, y: 0.09, z: 0.06}
 --- !u!1001 &1640074247
 PrefabInstance:
@@ -1761,7 +1761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c83d130dcd0f114da4c2d4ca84d9a1c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.778
+      value: 2.841
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c83d130dcd0f114da4c2d4ca84d9a1c, type: 3}
       propertyPath: m_LocalRotation.w
