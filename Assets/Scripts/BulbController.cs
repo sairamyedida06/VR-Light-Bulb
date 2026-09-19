@@ -9,6 +9,8 @@ public class BulbController : MonoBehaviour
     [SerializeField] private SliderControl slider;        // the brightness slider
     [SerializeField] private BulbLight bulbLight;         // the light executor
 
+    [SerializeField] private GameObject taskCompleteText;   // the "Task Complete" UI (disabled by default)
+
     private bool bulbSeated;
 
     private void OnEnable()
@@ -38,6 +40,9 @@ public class BulbController : MonoBehaviour
         {
             bulbLight.TurnOff();
         }
-            
+
+        if (bulbSeated && powerSwitch.IsPowerOn && slider.HasBeenUsed)
+            taskCompleteText.SetActive(true);
+
     }
 }
