@@ -32,8 +32,7 @@ public class BulbController : MonoBehaviour
         // Light is on only when the bulb is seated AND power is on
         if (bulbSeated && powerSwitch.IsPowerOn)
         {
-            bulbLight.SetBrightness(slider.Value);
-       
+            bulbLight.SetBrightness(Mathf.Lerp(0.15f, 1f, slider.Value));
         }
         else
         {
